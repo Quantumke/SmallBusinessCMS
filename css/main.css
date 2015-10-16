@@ -1,0 +1,26 @@
+.strip{
+height: 30px;
+    background: black;
+    width: 100%;
+    border: none;
+}
+.strip-small{
+    height: 30px;
+    width: 100%;
+    color: white;
+  padding-top: -10px;
+    font-family: source-code-pro;
+        font-size: xx-small;
+margin-top: 8px;
+}
+.icons{
+
+
+}
+.strip-left{
+    color: white;
+}
+.textmine{
+text-decoration: underline;
+    text-decoration-style: dotted;
+}
