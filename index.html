@@ -11,9 +11,12 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/xcomponent.css">
         <script src="js/modernizr.custom.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="responsiveslides.min.js"></script>
     </head>
     <body>
-        
+
+<!--
         <div class="strip">
            <div class="container">
               <div class="row">
@@ -67,5 +70,50 @@
 
         </div>
         
+        <div class="sider">
+            <div class="container">
+                <div class="row">
+                    <div class="sl col s12">
+                        <ul class="rslides">
+  <li><img src="1.jpg" alt=""></li>
+  <li><img src="2.jpg" alt=""></li>
+  <li><img src="3.jpg" alt=""></li>
+</ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+  $(function() {
+    $(".rslides").responsiveSlides(auto: true,
+  speed: 500,     );
+  });
+</script>
+-->
+ <div id="header-container col s12">
+         <video id="bg" src="img/bg.mp4" autoplay="true" loop="true" muted="true" ></video></div>
+         <div class="hdr-nav col s12">
+           <div class="container">
+               <div class="row">
+               <div class="first-items-hdr col s12">
+                <span class="hd">My Account</span>
+                <span class="hd">Search  &nbsp;<i class="fa fa-search"></i>
+                <input type="text" id="input-txt">
+	<input type="button" id="input-btn" value="Go">
+                  </span>
+               </div>
+
+
+          </div>
+           </div>
+
+
+         </div>
+         <script>
+             		document.getElementById('input-btn').addEventListener('click', function () {
+			document.getElementById('input-txt').classList.add('active');
+		});
+</script>
     </body>
 </html>
