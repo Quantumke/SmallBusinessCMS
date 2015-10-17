@@ -24,3 +24,24 @@ margin-top: 8px;
 text-decoration: underline;
     text-decoration-style: dotted;
 }
+.bg{
+
+}
+.links{
+  height: 40px;
+    width: 100%;
+}
+.logo{
+    background: url(../img/logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    height: 40px
+}
+.site-title{
+    font-size: large;
+    font-family: zeyada;
+    margin-top: 10px;
+    font-weight: bolder;
+
+}
