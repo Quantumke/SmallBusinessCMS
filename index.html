@@ -91,25 +91,67 @@
   });
 </script>
 -->
- <div id="header-container col s12">
-         <video id="bg" src="img/bg.mp4" autoplay="true" loop="true" muted="true" ></video></div>
-         <div class="hdr-nav col s12">
+ <div id="header-container">
+         <video id="bg" src="img/bg.mp4" autoplay="true" loop="true" muted="false" ></video></div>
+
+         <dxiv class="hdr-nav col s12">
            <div class="container">
                <div class="row">
                <div class="first-items-hdr col s12">
                 <span class="hd">My Account</span>
-                <span class="hd">Search  &nbsp;<i class="fa fa-search"></i>
+                <span class="hd">Search  &nbsp;
                 <input type="text" id="input-txt">
-	<input type="button" id="input-btn" value="Go">
+<!--	<input type="button" id="input-btn" value="Go">-->
+                 <button id="input-btn">  <i class="fa fa-search"></i> </button>
                   </span>
-               </div>
-
-
+                  <span class="title"> CRACS FLYFISHES</span>
+                  <span class="icon-set">
+                      <i class="fa fa-facebook"></i>
+                      <i class="fa fa-instagram"></i>
+                     <i class="fa fa-pinterest-p"></i>
+                      <i class="fa fa-twitter"></i>
+                  </span>
           </div>
-           </div>
 
+           </div>
+         </div>
+
+         <div class="menu-links ">
+            <div class="container">
+                <div class="row">
+                    <div class="menuitems">
+                        <div class="shopping-cart col s3">
+                         <span>  Shopping Cart (0)
+                          <i class="fa fa-shopping-cart"></i>
+                           </span>
+
+                        </div>
+                        <div class="links col s9">
+                           <span class="ln" onclick="gohome()">Home</span>
+                           <span  class="ln" onclick="goflies()">Flies</span>
+                           <span class="ln"  onclick="goshop()">Shop</span>
+                           <span class="ln"  onclick="goacc">Accesories</span>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
 
          </div>
+         <div class="three-modules">
+             <div class="container">
+                 <div class="row">
+                     <div class="three col s3">
+                         <div class="btn1">
+
+                         </div>
+
+                     </div>
+                 </div>
+             </div>
+         </div>
+
          <script>
              		document.getElementById('input-btn').addEventListener('click', function () {
 			document.getElementById('input-txt').classList.add('active');
