@@ -88,14 +88,19 @@ filter: brightness(30%);
 -ms-filter: brightness(30%);
 }
 #header-container{
-    height: 685.5px;
+    height: 100%;
     overflow: hidden;
+    width: 100%;
 
 }
 .first-items-hdr{
+
+
+}
+.hdr-nav{
     position: absolute;
     top: 10px;
-
+    width: 100%;
 }
 .hd{
   color: white;
@@ -114,3 +119,47 @@ font-size: small;
 		#input-txt.active {
 			width: 250px;
 		}
+.title{
+    color: white;
+    margin-left: 10%;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+.icon-set{
+    color: white;
+    margin-left: 30%;
+}
+.menu-links{
+
+
+}
+.menuitems{
+     border-top: 2px solid white;
+    cursor: pointer;
+}
+.shopping-cart{
+    border: 1px solid white;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    color: black;
+    padding-top: 6px;
+}
+.links{
+    color: white;
+    margin-top: 6px;
+}
+.ln{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.ln:hover{
+    width: 100px;
+    height: 50px;
+    background: white;
+    color: black;
+}
+.three-modules{
+    width: 10%;
+    height: 30px;
+}
